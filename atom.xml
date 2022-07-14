@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-07-11T14:20:20.142Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello CEZ</title>
+    <link href="http://example.com/2022/07/11/hello-world/"/>
+    <id>http://example.com/2022/07/11/hello-world/</id>
+    <published>2022-07-11T07:59:14.144Z</published>
+    <updated>2022-07-11T14:20:20.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to home!This is your first <a href="https://secretcode2022.github.io/">Blog</a>!</p><h2 id="Link-with-Bilibili"><a href="#Link-with-Bilibili" class="headerlink" title="Link with Bilibili:"></a>Link with <a href="https://space.bilibili.com/36135985/">Bilibili</a>:</h2><h3 id="Paste-to-address-bar-open"><a href="#Paste-to-address-bar-open" class="headerlink" title="Paste to address bar open:"></a>Paste to address bar open:</h3><pre><code class="bash">https://space.bilibili.com/36135985/</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to home!This is your first &lt;a href=&quot;https://secretcode2022.github.io/&quot;&gt;Blog&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id=&quot;Link-with-Bilibili&quot;&gt;&lt;a href=&quot;#Link-w</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
