@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>我的第一个博客</title>
+      <link href="/2022/07/14/my-first-blog/"/>
+      <url>/2022/07/14/my-first-blog/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="今天我在尝试着把主题设置下来！但是还是没有搞好！现在是晚上的19点18分。"><a href="#今天我在尝试着把主题设置下来！但是还是没有搞好！现在是晚上的19点18分。" class="headerlink" title="今天我在尝试着把主题设置下来！但是还是没有搞好！现在是晚上的19点18分。"></a>今天我在尝试着把主题设置下来！但是还是没有搞好！现在是晚上的19点18分。</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello CEZ</title>
       <link href="/2022/07/11/hello-world/"/>
       <url>/2022/07/11/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to home!This is your first <a href="https://secretcode2022.github.io/">Blog</a>!</p><h2 id="Link-with-Bilibili"><a href="#Link-with-Bilibili" class="headerlink" title="Link with Bilibili:"></a>Link with <a href="https://space.bilibili.com/36135985/">Bilibili</a>:</h2><h3 id="Paste-to-address-bar-open"><a href="#Paste-to-address-bar-open" class="headerlink" title="Paste to address bar open:"></a>Paste to address bar open:</h3><pre><code class="bash">https://space.bilibili.com/36135985/</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to home!This is your first <a href="https://secretcode2022.github.io/">Blog</a>!</p><h2 id="Link-with-Bilibili"><a href="#Link-with-Bilibili" class="headerlink" title="Link with Bilibili:"></a>Link with <a href="https://space.bilibili.com/36135985/">Bilibili</a>:</h2><h3 id="Paste-to-address-bar-open"><a href="#Paste-to-address-bar-open" class="headerlink" title="Paste to address bar open:"></a>Paste to address bar open:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://space.bilibili.com/36135985/</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
