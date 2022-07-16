@@ -3,11 +3,11 @@
   <title>啊丘的博客</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://secretcode2022.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://secretcode2022.github.io/"/>
   <updated>2022-07-14T11:18:46.538Z</updated>
-  <id>http://example.com/</id>
+  <id>https://secretcode2022.github.io/</id>
   
   <author>
     <name>啊丘</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一个博客</title>
-    <link href="http://example.com/2022/07/14/my-first-blog/"/>
-    <id>http://example.com/2022/07/14/my-first-blog/</id>
+    <link href="https://secretcode2022.github.io/2022/07/14/my-first-blog/"/>
+    <id>https://secretcode2022.github.io/2022/07/14/my-first-blog/</id>
     <published>2022-07-14T11:14:51.000Z</published>
     <updated>2022-07-14T11:18:46.538Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hello CEZ</title>
-    <link href="http://example.com/2022/07/11/hello-world/"/>
-    <id>http://example.com/2022/07/11/hello-world/</id>
+    <link href="https://secretcode2022.github.io/2022/07/11/hello-world/"/>
+    <id>https://secretcode2022.github.io/2022/07/11/hello-world/</id>
     <published>2022-07-11T07:59:14.144Z</published>
     <updated>2022-07-11T14:20:20.142Z</updated>
     

@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://secretcode2022.github.io/archives/index.html</loc>
     
-    <lastmod>2022-07-15</lastmod>
+    <lastmod>2022-07-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/2022/07/14/my-first-blog/</loc>
+    <loc>https://secretcode2022.github.io/tags/index.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://secretcode2022.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://secretcode2022.github.io/2022/07/14/my-first-blog/</loc>
     
     <lastmod>2022-07-14</lastmod>
     
@@ -20,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://secretcode2022.github.io/about/index.html</loc>
     
     <lastmod>2022-07-14</lastmod>
     
@@ -29,25 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2022-07-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/archives/index.html</loc>
-    
-    <lastmod>2022-07-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/11/hello-world/</loc>
+    <loc>https://secretcode2022.github.io/2022/07/11/hello-world/</loc>
     
     <lastmod>2022-07-11</lastmod>
     
@@ -57,8 +57,8 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2022-07-15</lastmod>
+    <loc>https://secretcode2022.github.io/</loc>
+    <lastmod>2022-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
