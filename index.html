@@ -177,6 +177,86 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://secretcode2022.github.io/2022/07/20/%E2%80%9C%E6%B8%85%E5%B1%8F-%E6%9A%82%E5%81%9C%E2%80%9D%E4%B8%8E%E2%80%9C%E5%AD%97%E7%AC%A6%E8%BE%93%E5%85%A5%E2%80%9D/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/profile-picture.jpg">
+      <meta itemprop="name" content="啊丘">
+      <meta itemprop="description" content="As a saying goes: There is a will, there is a wall.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="啊丘的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/07/20/%E2%80%9C%E6%B8%85%E5%B1%8F-%E6%9A%82%E5%81%9C%E2%80%9D%E4%B8%8E%E2%80%9C%E5%AD%97%E7%AC%A6%E8%BE%93%E5%85%A5%E2%80%9D/" class="post-title-link" itemprop="url">“清屏-暂停”与“字符输入”</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-07-20 18:09:09 / 修改时间：18:25:04" itemprop="dateCreated datePublished" datetime="2022-07-20T18:09:09+08:00">2022-07-20</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <hr>
+<p>​	C语言中，实现清屏功能可以用</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">&quot;cls&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>但是往往我们还需要配合</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">&quot;pause&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>起到停顿作用：效果是，嘿嘿的那个窗口会显示”按任意键继续…“</p>
+<hr>
+<p>但是今天我在一个循环中利用“清屏-暂停”时，发现在输入字符 %c 时卡住了，原因当然是忽略了Enter键盘的作用（Enter &#x3D; ‘\n’+’\r’ ）</p>
+<blockquote>
+<p>C语言中的换行和回车是两个不同的东西：</p>
+<blockquote>
+<p>换行 \n  是指跳到下一行</p>
+<p>回车 \n 是指回到该行文本的开头</p>
+</blockquote>
+</blockquote>
+<p>到了这里，无论Enter内部是先换行还是先回车，已经无须问个究竟了，如果下面有 %c 那肯定就收到了影响，为了消除影响，可以用一下的办法：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">getchar();</span><br><span class="line">system(<span class="string">&quot;cls&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>结束 !</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://secretcode2022.github.io/2022/07/16/%E6%96%87%E7%AB%A0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -430,14 +510,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
