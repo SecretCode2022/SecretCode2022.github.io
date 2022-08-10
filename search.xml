@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>【拯救C盘】存储空间不足</title>
+      <link href="/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/"/>
+      <url>/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/</url>
+      
+        <content type="html"><![CDATA[<hr><span id="more"></span><p>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当笔记本电脑的C盘存储条变红甚至饱满后，除了第一时间手动清理外，也许还可以通过一个简单的设置，让C盘快速释放3个G左右的大小的存储空间！</p><p>实现方法是：通过 <code>cmd</code> 命令行 → 输入 <code>powercfg -h off</code> → 按下 <code>Enter</code> 键盘</p><p>按win + R打开 运行 → 输入 <code>cmd</code></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220810190653130.png" alt="image-20220810190653130"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220810190914583.png" alt="image-20220810190914583"></p><p>操作结束！</p><p>这个时候可以打开 文件资源管理器 查看C盘的内存条了（瞬间没了3个G）</p><hr><h6 id="注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程"><a href="#注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程" class="headerlink" title="注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程"></a>注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程</h6>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HTML 学习</title>
       <link href="/2022/08/05/HTML%20%E5%AD%A6%E4%B9%A0/"/>
       <url>/2022/08/05/HTML%20%E5%AD%A6%E4%B9%A0/</url>
