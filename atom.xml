@@ -6,7 +6,7 @@
   <link href="https://secretcode2022.github.io/atom.xml" rel="self"/>
   
   <link href="https://secretcode2022.github.io/"/>
-  <updated>2022-08-11T03:42:56.636Z</updated>
+  <updated>2022-08-11T13:21:28.792Z</updated>
   <id>https://secretcode2022.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/"/>
     <id>https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</id>
     <published>2022-08-11T03:07:14.000Z</published>
-    <updated>2022-08-11T03:42:56.636Z</updated>
+    <updated>2022-08-11T13:21:28.792Z</updated>
     
-    <content type="html"><![CDATA[<hr><hr><center><h4>利用【环境变量】实现更改路径</h4></center><span id="more"></span><p>​Office全家桶的整个体积是比较大的，并且在安装时，默认路径都是保存在C盘上，所以有了这期教程！</p><p>​实现方法：通过【注册表更改默认途径】</p><p><img src="https://github.com/SecretCode2022/images/blob/main/image-20220811112001771.png" alt="image-20220811112001771"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220811112208646.png" alt="image-20220811112208646"></p><h4>然后正常安装 Office 软件即可（通过属性可以看到路径已经发生了变化）</h4>]]></content>
+    <content type="html"><![CDATA[<hr><hr><center><h4>利用【环境变量】实现更改路径</h4></center><span id="more"></span><p>​Office全家桶的整个体积是比较大的，并且在安装时，默认路径都是保存在C盘上，所以有了这期教程！</p><p>​实现方法：通过【注册表更改默认途径】</p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/cmd-1660224032526.png" alt="image-20220811112001771"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%BF%AE%E6%94%B9%E5%AF%B9%E5%BA%94-1660224086375.png" alt="image-20220811112208646"></p><h4>然后正常安装 Office 软件即可（通过属性可以看到路径已经发生了变化）</h4>]]></content>
     
     
     <summary type="html">&lt;hr&gt;
