@@ -20,17 +20,23 @@
     var CONFIG = {"hostname":"secretcode2022.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="As a saying goes: There is a will, there is a wall.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="啊丘的博客">
-<meta property="og:url" content="https://secretcode2022.github.io/archives/2022/08/index.html">
+  <meta name="description" content="利用【环境变量】实现更改路径">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【拯救C盘】内存不足-更改office安装路径">
+<meta property="og:url" content="https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/index.html">
 <meta property="og:site_name" content="啊丘的博客">
-<meta property="og:description" content="As a saying goes: There is a will, there is a wall.">
+<meta property="og:description" content="利用【环境变量】实现更改路径">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://github.com/SecretCode2022/images/blob/main/image-20220811112001771.png">
+<meta property="og:image" content="e:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220811112208646.png">
+<meta property="article:published_time" content="2022-08-11T03:07:14.000Z">
+<meta property="article:modified_time" content="2022-08-11T03:42:56.636Z">
 <meta property="article:author" content="啊丘">
+<meta property="article:tag" content="C盘">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/SecretCode2022/images/blob/main/image-20220811112001771.png">
 
-<link rel="canonical" href="https://secretcode2022.github.io/archives/2022/08/">
+<link rel="canonical" href="https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/">
 
 
 <script id="page-configurations">
@@ -38,12 +44,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 啊丘的博客</title>
+  <title>【拯救C盘】内存不足-更改office安装路径 | 啊丘的博客</title>
   
 
 
@@ -171,90 +177,137 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 7 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/profile-picture.jpg">
+      <meta itemprop="name" content="啊丘">
+      <meta itemprop="description" content="As a saying goes: There is a will, there is a wall.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="啊丘的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【拯救C盘】内存不足-更改office安装路径
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-08-11 11:07:14 / 修改时间：11:42:56" itemprop="dateCreated datePublished" datetime="2022-08-11T11:07:14+08:00">2022-08-11</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+        <hr>
+<hr>
+<center><h4>利用【环境变量】实现更改路径</h4></center>
+
+
+
+<span id="more"></span>
+
+<p>​	Office全家桶的整个体积是比较大的，并且在安装时，默认路径都是保存在C盘上，所以有了这期教程！</p>
+<p>​	实现方法：通过【注册表更改默认途径】</p>
+<p><img src="https://github.com/SecretCode2022/images/blob/main/image-20220811112001771.png" alt="image-20220811112001771"></p>
+<p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220811112208646.png" alt="image-20220811112208646"></p>
+<h4>然后正常安装 Office 软件即可（通过属性可以看到路径已经发生了变化）</h4>
+
+
+
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-11T11:07:14+08:00"
-              content="2022-08-11">
-          08-11
-        </time>
+    
+    
+    
+        <div class="reward-container">
+  <div>请博主喝杯奶茶！</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="啊丘 微信">
+        <p>微信</p>
+      </div>
+      <div style="display: inline-block;">
+        <img src="/images/pay%20a%20milktea.jpg" alt="啊丘 直接微信扔过去5元">
+        <p>直接微信扔过去5元</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="啊丘 支付宝">
+        <p>支付宝</p>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/" itemprop="url">
-            <span itemprop="name">【拯救C盘】内存不足-更改office安装路径</span>
+  </div>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">微信公众号</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-10T18:55:26+08:00"
-              content="2022-08-10">
-          08-10
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/" itemprop="url">
-            <span itemprop="name">【拯救C盘】存储空间不足</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-05T12:06:41+08:00"
-              content="2022-08-05">
-          08-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/05/HTML%20%E5%AD%A6%E4%B9%A0/" itemprop="url">
-            <span itemprop="name">HTML 学习</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/C%E7%9B%98/" rel="tag">★ C盘</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/" rel="prev" title="【拯救C盘】存储空间不足">
+      <i class="fa fa-chevron-left"></i> 【拯救C盘】存储空间不足
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -307,6 +360,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">利用【环境变量】实现更改路径</span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">然后正常安装 Office 软件即可（通过属性可以看到路径已经发生了变化）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

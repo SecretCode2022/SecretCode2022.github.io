@@ -6,7 +6,7 @@
   <link href="https://secretcode2022.github.io/atom.xml" rel="self"/>
   
   <link href="https://secretcode2022.github.io/"/>
-  <updated>2022-08-10T11:14:29.597Z</updated>
+  <updated>2022-08-11T03:42:56.636Z</updated>
   <id>https://secretcode2022.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【拯救C盘】内存不足-更改office安装路径</title>
+    <link href="https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/"/>
+    <id>https://secretcode2022.github.io/2022/08/11/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3-%E6%9B%B4%E6%94%B9office%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84/</id>
+    <published>2022-08-11T03:07:14.000Z</published>
+    <updated>2022-08-11T03:42:56.636Z</updated>
+    
+    <content type="html"><![CDATA[<hr><hr><center><h4>利用【环境变量】实现更改路径</h4></center><span id="more"></span><p>​Office全家桶的整个体积是比较大的，并且在安装时，默认路径都是保存在C盘上，所以有了这期教程！</p><p>​实现方法：通过【注册表更改默认途径】</p><p><img src="https://github.com/SecretCode2022/images/blob/main/image-20220811112001771.png" alt="image-20220811112001771"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220811112208646.png" alt="image-20220811112208646"></p><h4>然后正常安装 Office 软件即可（通过属性可以看到路径已经发生了变化）</h4>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;h4&gt;利用【环境变量】实现更改路径&lt;/h4&gt;&lt;/center&gt;</summary>
+    
+    
+    
+    
+    <category term="C盘" scheme="https://secretcode2022.github.io/tags/C%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【拯救C盘】存储空间不足</title>
     <link href="https://secretcode2022.github.io/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/"/>
     <id>https://secretcode2022.github.io/2022/08/10/%E3%80%90%E6%8B%AF%E6%95%91C%E7%9B%98%E3%80%91%E5%86%85%E5%AD%98%E4%B8%8D%E8%B6%B3/</id>
     <published>2022-08-10T10:55:26.000Z</published>
-    <updated>2022-08-10T11:14:29.597Z</updated>
+    <updated>2022-08-10T11:36:31.623Z</updated>
     
-    <content type="html"><![CDATA[<hr><span id="more"></span><p>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当笔记本电脑的C盘存储条变红甚至饱满后，除了第一时间手动清理外，也许还可以通过一个简单的设置，让C盘快速释放3个G左右的大小的存储空间！</p><p>实现方法是：通过 <code>cmd</code> 命令行 → 输入 <code>powercfg -h off</code> → 按下 <code>Enter</code> 键盘</p><p>按win + R打开 运行 → 输入 <code>cmd</code></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220810190653130.png" alt="image-20220810190653130"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220810190914583.png" alt="image-20220810190914583"></p><p>操作结束！</p><p>这个时候可以打开 文件资源管理器 查看C盘的内存条了（瞬间没了3个G）</p><hr><h6 id="注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程"><a href="#注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程" class="headerlink" title="注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程"></a>注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程</h6>]]></content>
+    <content type="html"><![CDATA[<hr><span id="more"></span><p>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当笔记本电脑的C盘存储条变红甚至饱满后，除了第一时间手动清理外，也许还可以通过一个简单的设置，让C盘快速释放3个G左右的大小的存储空间！</p><p>实现方法是：通过 <code>cmd</code> 命令行 → 输入 <code>powercfg -h off</code> → 按下 <code>Enter</code> 键盘</p><p>按win + R打开 运行 → 输入 <code>cmd</code></p><p><img src="https://github.com/SecretCode2022/SecretCode2022.github.io/blob/main/cmd.png" alt="cmd"></p><p><img src="E:/%E6%A1%8C%E9%9D%A2/typora/%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%92%E5%85%A5%E8%B7%AF%E5%BE%84/image-20220810190914583.png" alt="image-20220810190914583"></p><p>操作结束！</p><p>这个时候可以打开 文件资源管理器 查看C盘的内存条了（瞬间没了3个G）</p><hr><h6 id="注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程"><a href="#注：若电脑原本没有-开启休眠功能-，这种情况不适合本教程" class="headerlink" title="注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程"></a>注：若电脑原本没有 开启休眠功能 ，这种情况不适合本教程</h6>]]></content>
     
     
     <summary type="html">&lt;hr&gt;</summary>
